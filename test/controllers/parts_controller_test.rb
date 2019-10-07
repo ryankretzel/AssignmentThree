@@ -45,4 +45,14 @@ class PartsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to parts_url
   end
+
+  test "should find battery" do
+    get search_parts_url, params: {search: "Battery"}
+    assert_select 'td', 'Battery'
+  end
+
+  test "search always returns 200" do
+    get search_parts_url, params: {search: "Battery"}
+    assert_equal 200, status
+  end
 end

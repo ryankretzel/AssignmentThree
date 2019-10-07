@@ -45,4 +45,14 @@ class MakesControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to makes_url
   end
+
+  test "should find Ford" do
+    get search_makes_url, params: {search: "Ford"}
+    assert_select 'td', 'Ford'
+  end
+
+  test "search always returns 200" do
+    get search_makes_url, params: {search: "Ford"}
+    assert_equal 200, status
+  end
 end

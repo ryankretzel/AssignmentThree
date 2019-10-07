@@ -3,14 +3,14 @@
 one:
   name: Fusion
   VIN: 12345
-  make: Ford
+  make: one
 
 two:
   name: Focus
   VIN: 123456
-  make: Ford
+  make: one
 
 three:
   name: Tacoma
-  VIN: 123
-  make: Toyota
+  VIN: 1234
+  make: two

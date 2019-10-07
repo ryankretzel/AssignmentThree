@@ -46,8 +46,19 @@ class CarsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to cars_url
   end
 
-  test "should search car" do
-    get search_cars_url
-    assert_response :success
+  test "should find Fusion" do
+    get search_cars_url, params: {query: "Fusion"}
+    assert_select 'td', 'Fusion'
   end
+
+  test "search always returns 200" do
+    get search_cars_url, params: {query: "Fusion"}
+    assert_equal 200, status
+  end
+
+  test "shouldn't find Donut" do
+    get search_cars_url, params: {query: "Donut"}
+    assert_select 'td', false
+  end
+
 end
