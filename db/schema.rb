@@ -23,20 +23,11 @@ ActiveRecord::Schema.define(version: 2019_09_23_042053) do
 
   create_table "cars_parts", force: :cascade do |t|
     t.integer "car_id"
-    t.integer "library_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["car_id"], name: "index_cars_parts_on_car_id"
-    t.index ["library_id"], name: "index_cars_parts_on_library_id"
-  end
-
-  create_table "factories", force: :cascade do |t|
-    t.integer "car_id"
     t.integer "part_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["car_id"], name: "index_factories_on_car_id"
-    t.index ["part_id"], name: "index_factories_on_part_id"
+    t.index ["car_id"], name: "index_cars_parts_on_car_id"
+    t.index ["part_id"], name: "index_cars_parts_on_part_id"
   end
 
   create_table "makes", force: :cascade do |t|

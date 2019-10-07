@@ -45,4 +45,9 @@ class CarsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to cars_url
   end
+
+  test "should search car" do
+    get search_cars_url
+    assert_response :success
+  end
 end

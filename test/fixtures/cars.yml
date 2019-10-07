@@ -1,11 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  VIN: MyString
-  make: one
+  name: Fusion
+  VIN: 12345
+  make: Ford
 
 two:
-  name: MyString
-  VIN: MyString
-  make: two
+  name: Focus
+  VIN: 123456
+  make: Ford
+
+three:
+  name: Tacoma
+  VIN: 123
+  make: Toyota
