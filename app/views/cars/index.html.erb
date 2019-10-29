@@ -34,6 +34,8 @@
   <%= submit_tag("Search")%>
 <% end %>
 
+<%= link_to 'Log out', destroy_user_session_path, method: :delete %>
+
 <%= link_to 'New Car', new_car_path %>
 <%= link_to 'Makes', makes_path%>
 <%= link_to 'Parts', parts_path%>

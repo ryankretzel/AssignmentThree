@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="063690ed-afa5-4a97-aedb-ff64e1bbd18f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Assignment1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/cars_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/makes_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/parts_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/cars.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/cars.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/car_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/car_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/make_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/make_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/part_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/part_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cars_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cars_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/makes_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/makes_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/parts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/parts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cars/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cars/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.car_test">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.makes_controller_test">
     <configuration name="Development: Assignment1" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Assignment1" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -226,6 +229,32 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="makes_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/makes_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="part_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="Assignment1" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -252,39 +281,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="parts_controller_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="Assignment1" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/parts_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.makes_controller_test" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.cars_controller_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.car_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.part_test" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.make_test" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.cars_controller_test" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.parts_controller_test" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +311,8 @@
       <workItem from="1570131535430" duration="5327000" />
       <workItem from="1570410053422" duration="623000" />
       <workItem from="1570411355234" duration="4201000" />
-      <workItem from="1570415601783" duration="7701000" />
+      <workItem from="1570415601783" duration="8157000" />
+      <workItem from="1572388125343" duration="2091000" />
     </task>
     <servers />
   </component>
@@ -330,15 +334,15 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Assignment1@test_search_always_returns_200.rcov" NAME="test_search_always_returns_200 Coverage Results" MODIFIED="1570419885652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
-    <SUITE FILE_PATH="coverage/Assignment1@car_test.rcov" NAME="car_test Coverage Results" MODIFIED="1570423274079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
+    <SUITE FILE_PATH="coverage/Assignment1@car_test.rcov" NAME="car_test Coverage Results" MODIFIED="1570423441819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@test_should_destroy_car.rcov" NAME="test_should_destroy_car Coverage Results" MODIFIED="1570419374643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@part_test.rcov" NAME="part_test Coverage Results" MODIFIED="1570422301408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@make_test.rcov" NAME="make_test Coverage Results" MODIFIED="1570422195043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@Development__Assignment1.rcov" NAME="Development: Assignment1 Coverage Results" MODIFIED="1569225072791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@test_should_get_new.rcov" NAME="test_should_get_new Coverage Results" MODIFIED="1570415836504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@test_should_find_Fusion.rcov" NAME="test_should_find_Fusion Coverage Results" MODIFIED="1570419320040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
-    <SUITE FILE_PATH="coverage/Assignment1@makes_controller_test.rcov" NAME="makes_controller_test Coverage Results" MODIFIED="1570420224703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
-    <SUITE FILE_PATH="coverage/Assignment1@cars_controller_test.rcov" NAME="cars_controller_test Coverage Results" MODIFIED="1570420992701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
+    <SUITE FILE_PATH="coverage/Assignment1@makes_controller_test.rcov" NAME="makes_controller_test Coverage Results" MODIFIED="1570423584656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
+    <SUITE FILE_PATH="coverage/Assignment1@cars_controller_test.rcov" NAME="cars_controller_test Coverage Results" MODIFIED="1570423573149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@test_should_search_car.rcov" NAME="test_should_search_car Coverage Results" MODIFIED="1570419036727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@test__Assignment1.rcov" NAME="test: Assignment1 Coverage Results" MODIFIED="1570132566484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
     <SUITE FILE_PATH="coverage/Assignment1@parts_controller_test.rcov" NAME="parts_controller_test Coverage Results" MODIFIED="1570420465073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment1" />
